@@ -1,0 +1,27 @@
+{
+  "name": "example-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/locojk/Example-REST-API.git"
+  },
+  "author": "Jun Gao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/locojk/Example-REST-API/issues"
+  },
+  "homepage": "https://github.com/locojk/Example-REST-API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
