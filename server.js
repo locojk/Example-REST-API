@@ -11,7 +11,7 @@ db.once('open', () => console.log('Connected to Database'))
 
 app.use(express.json())
 
-const apiRouter = require('./routes/api')
-app.use('/api', apiRouter)
+const apiRouter = require('./routes/follower')
+app.use('/follower', apiRouter)
 
 app.listen(3000, () => console.log('Server Started'))

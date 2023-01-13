@@ -1,0 +1,26 @@
+GET http://localhost:3000/follower
+
+###
+
+GET http://localhost:3000/follower/63c0c826c40ef4eb75b8a1bc
+
+###
+
+POST http://localhost:3000/follower
+Content-Type: application/json
+
+{
+  "name": "a person",
+  "followedToPage": "Github"
+}
+
+###
+DELETE http://localhost:3000/follower/
+
+###
+PATCH http://localhost:3000/follower/63c0c93e2960195a969231dc
+Content-Type: application/json
+
+{
+  "name": "New Name"
+}
